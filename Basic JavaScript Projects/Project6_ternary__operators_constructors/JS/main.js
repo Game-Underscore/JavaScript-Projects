@@ -37,7 +37,7 @@ function Movie_Function() {
     document.getElementById("New_and_This").innerHTML = "The movie Jaws, released in " + Jaws.Movie_Year + ", was directed by " + Jaws.Movie_Director;
 }
 
-function multiply_Ten() {
+function multiply_Ten() { //Created nested function
     document.getElementById("Nested_Function").innerHTML = Count();
     function Count() {
         var Starting_point = 7;
